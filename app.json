@@ -21,8 +21,9 @@
         "translucent": true
       },
       "androidNavigationBar": {
-        "visible": "leanback",
-        "barStyle": "light-content"
+        "visible": "leanback", // or "immersive", or "sticky-immersive"
+        "barStyle": "dark-content", // or "light-content"
+        "backgroundColor": "#151312"
       }
     },
     "web": {
