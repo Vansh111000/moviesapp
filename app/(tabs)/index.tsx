@@ -1,3 +1,4 @@
+import SearchBar from "@/components/searchbar";
 import { icons } from "@/constants/icons";
 import { images } from "@/constants/images";
 import { setBackgroundColorAsync } from 'expo-system-ui';
@@ -15,9 +16,17 @@ export default function Index() {
             <Image source={images.bg} className="absolute w-full z-0" />
             <StatusBar translucent backgroundColor="transparent" />
 
-            <ScrollView className="flex-1  px-5 ">
+            <ScrollView className="flex-1  px-5 "
+            showsVerticalScrollIndicator={false}
+            contentContainerStyle={{
+                minHeight: '100%', paddingBottom:10,
+            }}
+            >
                 <Image  source={icons.logo} className="w-12 h-10 mt-20 mb-5 mx-auto"/>
-
+                <View className="flex-1 mt-5">
+                    
+                </View>
+<SearchBar/>
             </ScrollView>
         </View>
     );
