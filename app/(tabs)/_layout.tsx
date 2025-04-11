@@ -3,10 +3,10 @@ import {images} from "@/constants/images";
 import {Tabs} from "expo-router";
 import React from "react";
 import {Image, ImageBackground, Text, View} from "react-native";
-import changeNavigationBarColor from 'react-native-navigation-bar-color';
+
 
 const TabIcon =  ({focused, icon, title} : any) => {
-    changeNavigationBarColor('#151312', true);
+    
     if(focused) {
         return (
             <ImageBackground
