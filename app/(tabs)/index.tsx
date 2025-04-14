@@ -1,10 +1,10 @@
-import SearchBar from "../../components/SearchBar";
 import { icons } from "@/constants/icons";
 import { images } from "@/constants/images";
 import { useRouter } from "expo-router";
 import { setBackgroundColorAsync } from 'expo-system-ui';
 import { useEffect } from 'react';
 import { Image, ScrollView, StatusBar, View } from "react-native";
+import SearchBar from "../../components/SearchBar";
 
 export default function Index() {
     const route = useRouter();
@@ -28,7 +28,7 @@ export default function Index() {
                 <View className="flex-1 mt-5">
                 <SearchBar 
                 onPress={() => route.push('/search')}
-                placeholder='Search for movies, series, and more..'
+                placeholder='Search for movies, series, and more...'
                 />
                 </View>
             </ScrollView>
