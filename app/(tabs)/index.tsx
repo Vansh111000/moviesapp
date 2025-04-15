@@ -28,7 +28,7 @@ export default function Index() {
                 <View className="flex-1 mt-5">
                 <SearchBar 
                 onPress={() => route.push('/search')}
-                placeholder='Search for movies, series,cartin and more....'
+                placeholder='Search for movies, series,cartin1234 and more....'
                 />
                 </View>
                 
