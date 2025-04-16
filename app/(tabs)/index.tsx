@@ -31,6 +31,10 @@ export default function Index() {
                 placeholder='Search for movies, series1223 ,cartin1234 and more.....'
                 />
                 </View>
+
+                <View>
+                    
+                </View>
                 
             </ScrollView>
         </View>
