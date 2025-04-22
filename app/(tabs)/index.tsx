@@ -32,11 +32,7 @@ export default function Index() {
                 />
                 </View>
 
-                <View>
-                    <View>
-                        
-                    </View>
-                </View>
+                
                 
             </ScrollView>
         </View>
