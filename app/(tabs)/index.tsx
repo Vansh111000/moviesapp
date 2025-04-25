@@ -32,7 +32,7 @@ export default function Index() {
                 />
                 </View>
 
-                
+                 {/* nevermind about this update as it s just for normal update :) */}
                 
             </ScrollView>
         </View>
