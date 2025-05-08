@@ -1,5 +1,5 @@
 import {Text, View} from 'react-native';
-
+// PROFILE PAGE
 const Profile = () => {
 
     return (
