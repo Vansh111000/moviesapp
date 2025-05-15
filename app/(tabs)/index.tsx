@@ -6,6 +6,8 @@ import { useEffect } from 'react';
 import { Image, ScrollView, StatusBar, View } from "react-native";
 import SearchBar from "../../components/SearchBar";
 
+
+// more funcs
 export default function Index() {
     const route = useRouter();
     useEffect(() => {
